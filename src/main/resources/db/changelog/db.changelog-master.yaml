@@ -1,0 +1,11 @@
+databaseChangeLog:
+  -  changeSet:
+       id:  1
+       author:  nvoxland
+       changes:
+         -  createTable:
+              tableName:  company
+              columns:
+                -  column:
+                     name: id
+                     type: uuid
